@@ -1,0 +1,56 @@
+{
+  "dataset": "CICIoMT2024",
+  "n_classes": 19,
+  "class_names": [
+    "ARP_Spoofing",
+    "Benign",
+    "MQTT-DDoS-Connect_Flood",
+    "MQTT-DDoS-Publish_Flood",
+    "MQTT-DoS-Connect_Flood",
+    "MQTT-DoS-Publish_Flood",
+    "MQTT-Malformed_Data",
+    "Recon-OS_Scan",
+    "Recon-Ping_Sweep",
+    "Recon-Port_Scan",
+    "Recon-VulScan",
+    "TCP_IP-DDoS-ICMP",
+    "TCP_IP-DDoS-SYN",
+    "TCP_IP-DDoS-TCP",
+    "TCP_IP-DDoS-UDP",
+    "TCP_IP-DoS-ICMP",
+    "TCP_IP-DoS-SYN",
+    "TCP_IP-DoS-TCP",
+    "TCP_IP-DoS-UDP"
+  ],
+  "n_samples_total": 6987390,
+  "n_train": 5589912,
+  "n_test": 1397478,
+  "n_features_orig": 39,
+  "n_features_sel": 6,
+  "feature_reduction": 84.6154,
+  "fs_time_minutes": 26.81,
+  "composite_weights": {
+    "alpha": 0.3218,
+    "beta": 0.3229,
+    "gamma": 0.3553
+  },
+  "wrapper_best_fitness": 0.662523,
+  "results": {
+    "XGBoost": {
+      "accuracy": 85.7622,
+      "f1_macro": 76.1244
+    },
+    "LightGBM": {
+      "accuracy": 8.0874,
+      "f1_macro": 14.1413
+    },
+    "RandomForest": {
+      "accuracy": 81.7619,
+      "f1_macro": 75.8768
+    },
+    "Ensemble": {
+      "accuracy": 84.2726,
+      "f1_macro": 78.282
+    }
+  }
+}

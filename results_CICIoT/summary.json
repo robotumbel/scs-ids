@@ -1,0 +1,71 @@
+{
+  "dataset": "CICIoT2023",
+  "n_classes": 34,
+  "class_names": [
+    "BACKDOOR_MALWARE",
+    "BENIGN",
+    "BROWSERHIJACKING",
+    "COMMANDINJECTION",
+    "DDOS-ACK_FRAGMENTATION",
+    "DDOS-HTTP_FLOOD",
+    "DDOS-ICMP_FLOOD",
+    "DDOS-ICMP_FRAGMENTATION",
+    "DDOS-PSHACK_FLOOD",
+    "DDOS-RSTFINFLOOD",
+    "DDOS-SLOWLORIS",
+    "DDOS-SYNONYMOUSIP_FLOOD",
+    "DDOS-SYN_FLOOD",
+    "DDOS-TCP_FLOOD",
+    "DDOS-UDP_FLOOD",
+    "DDOS-UDP_FRAGMENTATION",
+    "DICTIONARYBRUTEFORCE",
+    "DNS_SPOOFING",
+    "DOS-HTTP_FLOOD",
+    "DOS-SYN_FLOOD",
+    "DOS-TCP_FLOOD",
+    "DOS-UDP_FLOOD",
+    "MIRAI-GREETH_FLOOD",
+    "MIRAI-GREIP_FLOOD",
+    "MIRAI-UDPPLAIN",
+    "MITM-ARPSPOOFING",
+    "RECON-HOSTDISCOVERY",
+    "RECON-OSSCAN",
+    "RECON-PINGSWEEP",
+    "RECON-PORTSCAN",
+    "SQLINJECTION",
+    "UPLOADING_ATTACK",
+    "VULNERABILITYSCAN",
+    "XSS"
+  ],
+  "n_samples_total": 2158185,
+  "n_train": 1726548,
+  "n_test": 431637,
+  "n_features_orig": 39,
+  "n_features_sel": 7,
+  "feature_reduction": 82.0513,
+  "fs_time_minutes": 8.12,
+  "composite_weights": {
+    "alpha": 0.3506,
+    "beta": 0.3274,
+    "gamma": 0.322
+  },
+  "wrapper_best_fitness": 0.500708,
+  "results": {
+    "XGBoost": {
+      "accuracy": 75.946,
+      "f1_macro": 49.9788
+    },
+    "LightGBM": {
+      "accuracy": 74.0242,
+      "f1_macro": 48.9896
+    },
+    "RandomForest": {
+      "accuracy": 73.4708,
+      "f1_macro": 48.4143
+    },
+    "Ensemble": {
+      "accuracy": 75.6976,
+      "f1_macro": 50.4743
+    }
+  }
+}

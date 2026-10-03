@@ -1,0 +1,40 @@
+feature,rank_IoMT,rank_IoT,mean_rank,sel_IoMT,sel_IoT
+Header_Length,1.0,1.0,1.0,True,True
+Protocol Type,2.0,2.0,2.0,False,False
+TCP,3.0,3.0,3.0,False,False
+UDP,6.0,4.0,5.0,False,False
+syn_count,4.0,7.0,5.5,True,True
+syn_flag_number,5.0,6.0,5.5,False,False
+ack_flag_number,9.0,5.0,7.0,False,False
+ICMP,7.0,8.0,7.5,False,False
+ack_count,8.0,9.0,8.5,False,True
+fin_flag_number,10.0,13.0,11.5,False,False
+psh_flag_number,12.0,11.0,11.5,True,False
+Tot sum,14.0,10.0,12.0,False,True
+fin_count,11.0,15.0,13.0,False,False
+rst_count,13.0,14.0,13.5,False,True
+rst_flag_number,16.0,12.0,14.0,False,False
+Std,15.0,19.0,17.0,False,False
+Tot size,17.0,17.0,17.0,False,True
+Number,19.0,16.0,17.5,True,False
+AVG,18.0,18.0,18.0,True,True
+HTTPS,20.0,20.0,20.0,False,False
+Variance,21.0,22.0,21.5,False,False
+Max,22.0,21.0,21.5,False,False
+Time_To_Live,26.0,23.0,24.5,False,False
+Min,23.0,27.0,25.0,False,False
+IPv,29.0,24.0,26.5,False,False
+ARP,30.0,26.0,28.0,False,False
+LLC,31.0,25.0,28.0,False,False
+DHCP,25.0,32.0,28.5,False,False
+IAT,24.0,34.0,29.0,False,False
+HTTP,33.0,30.0,31.5,False,False
+ece_flag_number,28.0,36.0,32.0,False,False
+cwr_flag_number,27.0,39.0,33.0,False,False
+DNS,38.0,28.0,33.0,False,False
+Rate,36.0,31.0,33.5,True,False
+IGMP,39.0,29.0,34.0,False,False
+SSH,35.0,33.0,34.0,False,False
+Telnet,32.0,38.0,35.0,False,False
+SMTP,34.0,37.0,35.5,False,False
+IRC,37.0,35.0,36.0,False,False

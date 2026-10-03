@@ -1,0 +1,4 @@
+dataset,classes,accuracy,f1_macro,f1_weighted,gap_acc_minus_macro,n_f1_below_0.5,n_f1_below_0.1,test_share_f1_below_0.5_pct,imbalance_ratio,spearman_logsupport_f1,p_value
+CICIoV2024,6,95.7531,90.1887,96.7126,5.5644,1,0,1.7717,122.4965,-0.6,0.208
+CICIoMT2024,19,84.2726,78.282,84.759,5.9906,2,0,0.272,2210.75,0.3526,0.1387
+CICIoT2023,34,75.6976,50.4743,73.305,25.2233,17,9,20.9947,5074.3077,0.6841,0.0

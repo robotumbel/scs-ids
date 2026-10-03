@@ -1,0 +1,2 @@
+n_rows,distinct_vectors,distinct_in_train,test_rows_seen_in_train_pct,distinct_class_0,distinct_class_1,distinct_class_2,distinct_class_3,distinct_class_4,distinct_class_5
+1408219,3588,3080,99.80507307096902,3547,21,2,10,5,3

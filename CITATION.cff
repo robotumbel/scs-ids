@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Separability-Ceiling Selection (SCS)"
+type: software
+authors:
+  - family-names: Purnama
+    given-names: Benni
+  - family-names: Winanto
+    given-names: Eko Arip
+  - name: Sharipuddin
+  - family-names: Sandra
+    given-names: Dodi
+  - family-names: Ramadhanti
+    given-names: Febby Tri
+preferred-citation:
+  type: unpublished
+  title: "A separability-ceiling criterion for training-free feature selection in lightweight intrusion detection for vehicular, medical, and consumer IoT networks"
+  authors:
+    - family-names: Purnama
+      given-names: Benni
+    - family-names: Winanto
+      given-names: Eko Arip
+    - name: Sharipuddin
+    - family-names: Sandra
+      given-names: Dodi
+    - family-names: Ramadhanti
+      given-names: Febby Tri
+  year: 2026
+  notes: "Manuscript submitted for publication"

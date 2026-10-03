@@ -1,0 +1,13 @@
+target,feature_set,n_features,n_classes,acc_mean,acc_std,f1_mean,f1_std,bal_mean
+IoMT,In-domain GWO wrapper subset,6,19,85.462,0.225,73.349,3.291,73.018
+IoMT,Cross-domain GWO wrapper subset,7,19,75.62,0.093,59.476,2.723,60.403
+IoMT,Consensus top-k (k=6),6,19,73.958,0.135,43.532,0.419,44.745
+IoMT,Union of both GWO wrapper subsets,10,19,85.61,0.218,74.536,2.698,73.827
+IoMT,Random k (k=6),6,19,57.305,21.502,42.353,8.161,44.644
+IoMT,All 39 features,39,19,85.838,0.188,75.329,3.581,75.064
+IoT,In-domain GWO wrapper subset,7,33,75.676,0.212,51.62,1.993,51.947
+IoT,Cross-domain GWO wrapper subset,6,33,67.721,0.2,50.793,1.673,50.387
+IoT,Consensus top-k (k=7),7,33,61.124,0.127,36.241,1.219,37.563
+IoT,Union of both GWO wrapper subsets,10,33,76.356,0.189,54.486,1.754,54.182
+IoT,Random k (k=7),7,33,46.685,7.924,36.637,4.272,36.541
+IoT,All 39 features,39,33,78.108,0.166,59.345,2.297,58.871

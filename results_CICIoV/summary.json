@@ -1,0 +1,43 @@
+{
+  "dataset": "CICIoV2024",
+  "n_classes": 6,
+  "class_names": [
+    "BENIGN",
+    "DoS",
+    "Spoofing-GAS",
+    "Spoofing-RPM",
+    "Spoofing-SPEED",
+    "Spoofing-STEERING"
+  ],
+  "n_samples_total": 1408219,
+  "n_train": 1126575,
+  "n_test": 281644,
+  "n_features_orig": 75,
+  "n_features_sel": 6,
+  "feature_reduction": 92.0,
+  "fs_time_minutes": 15.45,
+  "composite_weights": {
+    "alpha": 0.3401,
+    "beta": 0.3223,
+    "gamma": 0.3376
+  },
+  "wrapper_best_fitness": 0.869284,
+  "results": {
+    "XGBoost": {
+      "accuracy": 99.1954,
+      "f1_macro": 97.0618
+    },
+    "LightGBM": {
+      "accuracy": 95.7531,
+      "f1_macro": 90.1887
+    },
+    "RandomForest": {
+      "accuracy": 95.7531,
+      "f1_macro": 90.1887
+    },
+    "Ensemble": {
+      "accuracy": 95.7531,
+      "f1_macro": 90.1887
+    }
+  }
+}

@@ -1,0 +1,13 @@
+target,seed,k,features
+IoMT,42,6,Header_Length;IAT;Number;syn_flag_number;TCP;Max
+IoMT,42,10,Header_Length;IAT;Number;syn_flag_number;TCP;Max;Protocol Type;ack_count;Tot sum;Std
+IoMT,43,6,Header_Length;IAT;Tot sum;TCP;syn_count;Number
+IoMT,43,10,Header_Length;IAT;Tot sum;TCP;syn_count;Number;Protocol Type;Std;IPv;Rate
+IoMT,44,6,Protocol Type;IAT;Tot sum;TCP;syn_count;Header_Length
+IoMT,44,10,Protocol Type;IAT;Tot sum;TCP;syn_count;Header_Length;Number;Std;Time_To_Live;ack_count
+IoT,42,7,Protocol Type;Rate;ack_flag_number;Tot sum;rst_flag_number;syn_flag_number;UDP
+IoT,42,10,Protocol Type;Rate;ack_flag_number;Tot sum;rst_flag_number;syn_flag_number;UDP;AVG;Min;Max
+IoT,43,7,Protocol Type;Rate;ack_flag_number;Tot sum;syn_flag_number;rst_flag_number;Header_Length
+IoT,43,10,Protocol Type;Rate;ack_flag_number;Tot sum;syn_flag_number;rst_flag_number;Header_Length;AVG;Max;Min
+IoT,44,7,Protocol Type;IAT;ack_flag_number;Max;rst_flag_number;syn_flag_number;Number
+IoT,44,10,Protocol Type;IAT;ack_flag_number;Max;rst_flag_number;syn_flag_number;Number;UDP;AVG;Min

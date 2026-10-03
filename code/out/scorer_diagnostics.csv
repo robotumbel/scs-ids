@@ -1,0 +1,4 @@
+dataset,n_features,tau_IG_PCA,tau_IG_RF,tau_PCA_RF,w_IG,w_PCA,w_RF,max_IG,max_PCA,max_RF,share_IG_pct,share_PCA_pct,share_RF_pct,spearman_composite_vs_attention,spearman_composite_vs_final,k_selected,selected_in_topk,selected_in_top2k,selected_median_rank,selected_ranks
+CICIoV2024,75,-0.0609,0.4364,-0.1863,0.3401,0.3223,0.3376,1.0,1.0,0.0494,31.182,67.7667,1.0513,1.0,1.0,6,2,2,15.5,ID11=4;ID12=14;ID16=17;DATA_316=1;DATA_415=30;DATA_713=50
+CICIoMT2024,39,0.526,0.5095,0.37,0.3218,0.3229,0.3553,1.0,1.0,0.1065,16.9035,79.8492,3.2473,1.0,1.0,6,2,3,15.0,Header_Length=1;Rate=36;psh_flag_number=12;syn_count=4;AVG=18;Number=19
+CICIoT2023,39,0.5233,0.7809,0.4761,0.3506,0.3274,0.322,1.0,1.0,0.1441,25.4152,71.9184,2.6664,1.0,1.0,7,2,5,10.0,Header_Length=1;ack_count=9;syn_count=7;rst_count=14;Tot sum=10;AVG=18;Tot size=17
